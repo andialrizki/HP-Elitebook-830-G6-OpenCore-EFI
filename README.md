@@ -48,6 +48,12 @@ sudo mkdir /var/vm/sleepimage
 sudo pmset -a standby 0
 sudo pmset -a autopoweroff 0
 ```
+
+### Enable Wifi
+- if using AirportItlwm.kext (like native wifi) patch OCLP Mod below, but if use Itlwm.kext use Heliport App, u can skip this patch
+```bash
+https://github.com/5T33Z0/OCLP4Hackintosh/blob/main/Enable_Features/AirportItllwm_Sequoia.md
+```
 ### Enable Audio
 - Disable SIP first, (Press space on Opencore boot picker and select Toggle SIP)
 ```bash
